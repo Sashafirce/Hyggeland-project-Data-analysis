@@ -1,4 +1,4 @@
-# ![HYGGELAND logo]()
+# ![HYGGELAND logo](Hyggeland_Logo.png)
 
 # **HYGGELAND Project "Minimal, Meaningful, where Hygge meet sustainability"** 
 HYGGELAND Project involves analysing Data for Hyggeland. This online retail company hired me to assess customers' behaviour, identify popular products to optimise pricing, and marketing strategies to improve sales. 
@@ -6,7 +6,7 @@ HYGGELAND Project involves analysing Data for Hyggeland. This online retail comp
 ## **Dataset content**
 The content of the HYGGELAND dataset is csv file which include data on products purchased, quantities, transaction dates and times of customers' purchases, prices of the products, customers' identifiers, and customers locations.
 ## **Business Requirements**
-The HYGGELAND company has hired me because they needed to understand their customers' behaviour  and to optimise the prices. They want me to analyse their collected data to implement new marketing strategies in order to increase the sales
+The HYGGELAND company has hired me because they needed to understand their customers' behaviour  and to optimise the prices. They want me to analyse their collected data to implement new marketing strategies in order to increase the sales.
 ## **Hypothesis and how to validate?**
 •	List here your project hypothesis(es) and how you envision validating it (them)
 ## **Project Plan**
