@@ -1,25 +1,31 @@
 # ![HYGGELAND logo](Hyggeland_Logo.png)
 
 # **HYGGELAND Project "Minimal, Meaningful, where Hygge meet sustainability"** 
-HYGGELAND Project involves analysing Data for Hyggeland. This online retail company hired me to assess customers' behaviour, identify popular products to optimise pricing, and marketing strategies to improve sales. 
+HYGGELAND Project involves analysing Data for Hyggeland to assess customers' behaviour, identify popular products to optimise pricing, and marketing strategies to improve sales. 
  
 ## **Dataset content**
 The content of the HYGGELAND dataset is csv file which include data on products purchased, quantities, transaction dates and times of customers' purchases, prices of the products, customers' identifiers, and customers locations.
+
 ## **Business Requirements**
-The HYGGELAND company has hired me because they needed to understand their customers' behaviour  and to optimise the prices. They want me to analyse their collected data to implement new marketing strategies in order to increase the sales.
+The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understand their customers' behaviour  and to optimise the prices. They want me to analyse their collected data to implement new marketing strategies in order to increase the sales.
+
 ## **Hypothesis and how to validate?**
 •	List here your project hypothesis(es) and how you envision validating it (them)
+
 ## **Project Plan**
 •	Outline the high-level steps taken for the analysis.
 •	How was the data managed throughout the collection, processing, analysis and interpretation steps?
 •	Why did you choose the research methodologies you used?
+
 ## **The rationale to map the business requirements to the Data Visualisations**
 •	List your business requirements and a rationale to map them to the Data Visualisations 
+
 ## **Analysis techniques used**
 •	List the data analysis methods used and explain limitations or alternative approaches.
 •	How did you structure the data analysis techniques. Justify your response.
 •	Did the data limit you, and did you use an alternative approach to meet these challenges?
 •	How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+
 ## **Ethical considerations**
 •	Were there any data privacy, bias or fairness issues with the data?
 •	How did you overcome any legal or societal issues?
@@ -28,6 +34,7 @@ The HYGGELAND company has hired me because they needed to understand their custo
 •	Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
 •	Did you recognise gaps in your knowledge, and how did you address them?
 •	If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+
 ## **Development Roadmap**
 •	What challenges did you face, and what strategies were used to overcome these challenges?
 •	What new skills or tools do you plan to learn next based on your project experience?
@@ -40,5 +47,6 @@ Credits
 
 ## **Media**
 •	The images used for  the present document was created by AI.
+
 ## **Acknowledgements**
 •	Thank the people who provided support through this project.
