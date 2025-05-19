@@ -1,13 +1,13 @@
 # ![HYGGELAND logo](Hyggeland_Logo.png)
 
 # **HYGGELAND Project "Minimal, Meaningful, where Hygge meet sustainability"** 
-HYGGELAND Project involves analysing Data for Hyggeland to assess customers' behaviour, identify popular products to optimise pricing, and marketing strategies to improve sales. 
+The HYGGELAND Project involves analysing data for Hyggeland to assess customers' behaviour, identify popular products to optimise pricing, and develop marketing strategies to improve sales. 
  
 ## **Dataset content**
-The content of the HYGGELAND dataset is csv file which include data on products purchased, quantities, transaction dates and times of customers' purchases, prices of the products, customers' identifiers, and customers locations.
+The content of the HYGGELAND CSV file includes data on products purchased, quantities, transaction dates and times of customers' purchases, prices of the products, customers' identifiers, and customers' locations.
 
 ## **Business Requirements**
-The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understand their customers' behaviour  and to optimise the prices. They want me to analyse their collected data to implement new marketing strategies in order to increase the sales.
+The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understand their customers' behaviour  and optimise the prices. They want me to analyse their collected data to implement new marketing strategies and increase sales.
 
 ## **Hypothesis and how to validate?**
 1. Hypothesis:
@@ -18,13 +18,13 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
 - Group by description and compute: avg_unit_price, total_quantity, and total_revenue
 
-- Create scatterplot of avg_unit_price vs total_revenue
+- Create a scatterplot of avg_unit_price vs total_revenue
 
 - Segment into price tiers (cheap ≤ £4.13, premium > £4.13)
 
 - Compare revenue share by segment
 
-✅ Confirmed: The analysis showed that all top 10 most sold products are priced below the premium threshold (£4.13). The average price of cheap products was £1.81, and they dominate sales volume. Histogram and scatterplot showed a concentration of demand at lower price points.
+✅ Confirmed: The analysis showed that all 10 of the top 10 most sold products are priced below the premium threshold (£4.13). The average price of cheap products was £1.81, and they dominate sales volume. The histogram and scatterplot showed a concentration of demand at lower price points.
 
  2. Hypothesis:
 
@@ -32,13 +32,13 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
  Validation Plan:
 
-- Group by description and compute total_revenue
+- Group by description and compute "total_revenue".
 
-- Rank by descending revenue and calculate cumulative revenue %
+- Rank by descending revenue and calculate the cumulative revenue %.
 
-- Plot Pareto chart (Step 49)
+- Plot a Pareto chart (Step 49).
 
-✅ Confirmed:The Pareto chart (Step 49) demonstrated that ~20% of products generate ~80% of total revenue. This confirms the 80/20 rule applies to your product line and suggests a core catalogue strategy is viable.
+✅ Confirmed: The Pareto chart (Step 49) demonstrated that ~20% of products generate ~80% of total revenue. This confirms that the 80/20 rule applies to your product line and suggests a viable core catalogue strategy.
 
 3. Hypothesis:
 
@@ -46,13 +46,13 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
  
  Validation Plan:
 
-- Group by country and calculate avg_unit_price
+- Group by country and calculate "avg_unit_price".
 
-- Compare top 10 countries by avg_unit_price and revenue (Step 50)
+- Compare top 10 countries by "avg_unit_price" and revenue (Step 50)
 
 - Cross-check with known income levels or cost-of-living indexes
 
-✅ Confirmed:Bar chart of average unit price by country (Step 50) shows countries like Switzerland and Australia have higher avg. prices. UK shows high volume but lower avg. prices — matching expected cost-of-living patterns.   
+✅ Confirmed: A bar chart of the average unit price by country (Step 50) shows countries like Switzerland and Australia have higher average prices. The UK shows high volume but lower average prices, matching expected cost-of-living patterns.   
 
  4. Hypothesis:
 
@@ -75,9 +75,9 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
     - Data Cleaning: Removed nulls, fixed dtypes, filtered invalid entries (e.g., negative quantities).
 
-    - Data Processing: Created derived fields like total_price, month, gross_profit.
+    - Data Processing: Created derived fields like total_price, month, and "gross_profit".
 
-    - Exploratory Analysis: Used descriptive statistics, segmentation, Pareto analysis.
+    - Exploratory Analysis: Used descriptive statistics, segmentation, and Pareto analysis.
 
     - Visualisation: Created histograms, bar charts, scatterplots, heatmaps, line trends (Seaborn + Plotly).
 
@@ -99,7 +99,7 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
     - Pricing elasticity and segmentation were used to uncover patterns in behaviour.
 
-    - Chose Seaborn for static insights and Plotly for stakeholder-friendly interactivity.
+    - Choose Seaborn for static insights and Plotly for stakeholder-friendly interactivity.
 
 ## **Mapping Business Requirements to Data Visualisations**
 
@@ -133,7 +133,7 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
 2. Limitations & Alternatives:
 
-    - Limited price variation for elasticity led to weak regression power. Could expand via synthetic price testing or A/B tests.
+    - Limited price variation for elasticity led to weak regression power. It could be expanded via synthetic price testing or A/B tests.
 
     - No gender data meant customer segmentation was limited. Inferred behaviour via spend, quantity, and region instead.
 
@@ -141,36 +141,37 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
     - Prioritised data cleaning first, then layered in EDA → segmentation → pricing insights → strategy.
 
-    - Used a jupyter notebook format for clarity with the coding.
+    - Used a Jupyter notebook format for clarity with the coding.
 
-    - The step-by-step build-up made it possible to make changes right away based on what was found.
+    - The step-by-step build-up made it possible to make changes immediately based on what was found.
 
 4. Use of Generative AI:
 
-    - AI supported: Code debugging and optimisation (e.g., visual tweaks, seaborn vs plotly conversion), and the interpretation based on output of elasticity. Grammarly software used to correct and improve the drafting of the documents.
+    - AI supported: Code debugging and optimisation (e.g., visual tweaks, seaborn vs plotly conversion), and the interpretation based on the output of elasticity. Grammarly software is used to correct and improve the drafting of documents.
 
 
 ## **Ethical considerations**
-• There were no issues with customers privacy since all of them were identified by a code number. One disadvantage is that make more difficult to do a customer segmentation by gender, age, or sex.
+• There were no issues with customers' privacy since all of them were identified by a code number. One disadvantage is that it makes it more difficult to segment customers by gender, age, or sex.
 
 ## **Development Roadmap**
-• Internet conection
+• Internet connection.
 • Struggles with time management.
 ## **Main Data Analysis Libraries**
 •	Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
 ## Credits
-• https://www.w3schools.com/python/pandas/pandas_analyzing.asp It helped me to understand and learn how to do the data analysis properly.
-• https://copilot.microsoft.com/chats/NdbvxkFKX1cA4RBrX4jtu I used it specificaly log and syntax errors
+
+• https://www.w3schools.com/python/pandas/pandas_analyzing.asp. It helped me understand and learn how to analyse the data properly.     
+• https://copilot.microsoft.com/chats/NdbvxkFKX1cA4RBrX4jtu I used it specifically for logic and syntax errors.       
 • https://www.markdownguide.org/basic-syntax/ I needed to write the README document.
 
 ## **Media**
-•The images used for  the present document was created with Canvas.
+•The images used for  the present document were created with Canvas.
 
 ## **Acknowledgements**
-•Thank the people who provided support through this project, especially Emma and Mark always patient and ready to help me any time.
+•Thank the people who provided support through this project, especially Emma and Mark, who were always patient and ready to help me anytime.
 
 •"Last but not least, I wanna thank me,
  I wanna thank me for believing in me
 I wanna thank me for doing all this hard work, 
 I wanna thank me for having no days off,
-I wanna thank me for, for never quitting."
+I wanna thank me for never quitting."
