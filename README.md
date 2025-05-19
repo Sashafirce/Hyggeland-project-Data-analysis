@@ -147,7 +147,7 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 
 4. Use of Generative AI:
 
-    - AI supported: Code debugging and optimisation (e.g., visual tweaks, seaborn vs plotly conversion), and the interpretation based on output of elasticity.
+    - AI supported: Code debugging and optimisation (e.g., visual tweaks, seaborn vs plotly conversion), and the interpretation based on output of elasticity. Grammarly software used to correct and improve the drafting of the documents.
 
 
 ## **Ethical considerations**
