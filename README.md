@@ -7,7 +7,7 @@ The HYGGELAND Project involves analysing data for Hyggeland to assess customers'
 The content of the HYGGELAND CSV file includes data on products purchased, quantities, transaction dates and times of customers' purchases, prices of the products, customers' identifiers, and customers' locations.
 
 ## **Business Requirements**
-The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understand their customers' behaviour  and optimise the prices. They want me to analyse their collected data to implement new marketing strategies and increase sales.
+The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understand their customers' behaviour  and optimise the prices. They want her to analyse their collected data to implement new marketing strategies and increase sales.
 
 ## **Hypothesis and how to validate?**
 1. Hypothesis:
