@@ -157,7 +157,7 @@ The HYGGELAND company has hired Sasha Firce, a Junior Data Analyst, to understan
 • Internet connection.
 • Struggles with time management.
 ## **Main Data Analysis Libraries**
-•	Pandas, Numpy, Matplotlib, Plotly. .
+•	Pandas, Numpy, Matplotlib, Plotly, Seaborn, and Statmodelsapi.
 ## Credits
 
 • https://www.w3schools.com/python/pandas/pandas_analyzing.asp. It helped me understand and learn how to analyse the data properly.     
